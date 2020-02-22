@@ -1,0 +1,10 @@
+name: 'universe'
+version: '1.0.0'
+license: 'MIT'
+author: 'Stephen Bolton'
+url: ''
+description: 'Universe theme for vim. Ported from VSCode theme'
+colorschemes:
+  - name: universe_purple
+    background: 'dark'
+    palette: universe

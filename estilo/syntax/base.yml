@@ -1,0 +1,84 @@
+# BASE UI
+ColorColumn: ''
+Conceal: ''
+Cursor: 'yellow4 yellow9'
+CursorIM: ''
+CursorColumn: ''
+# Need to figure out how to pick a color that has good value
+# to match the idea of opacity
+CursorLine: '- background0'
+Directory: ''
+DiffAdd: '- green4'
+DiffChange: ''
+DiffDelete: '- red4'
+DiffText: ''
+ErrorMsg: ''
+VertSplit: ''
+Folded: ''
+FoldColumn: ''
+SignColumn: ''
+IncSearch: ''
+LineNr: 'neutral7'
+CursorLineNr: 'neutral3'
+MatchParen: 'teal4'
+ModeMsg: ''
+MoreMsg: ''
+NonText: ''
+Normal: 'neutral1 background5'
+PMenu: '- background2'
+PMenuSel: ''
+PmenuSbar: ''
+PmenuThumb: ''
+Question: ''
+Search: '- background0'
+SpecialKey: ''
+SpellBad: ''
+SpellLocal: ''
+SpellCap: ''
+SpellRare: ''
+StatusLine: ''
+StatusLineNC: ''
+TabLine: ''
+TabLineFill: ''
+TabLineSel: ''
+Title: ''
+Visual: ''
+VisualNOS: ''
+WarningMsg: ''
+WildMenu: ''
+# BASE SYNTAX
+Comment: 'neutral5'
+Constant: 'teal4'
+String: 'green4' # Constant
+Character: 'blue4' # Constant
+Boolean: 'teal4' # Constant
+Number: 'orange4' # Constant
+Float: 'orange4' # Constant
+Identifier: 'blue4'
+Function: '@Identifier' # Identifier
+Statement: 'purple4'
+Conditional: '@Statement' # Statement
+Repeat: '' # Statement
+Label: '' # Statement
+Operator: '' # Statement
+Keyword: '' # Statement
+Exception: 'red4' # Statement
+PreProc: 'purple4'
+Include: '' # PreProc
+Define: '' # PreProc
+Macro: '' # PreProc
+PreCondit: '' # PreProc
+Type: 'blue4'
+StorageClass: '' # Type
+Structure: '' # Type
+Typedef: '' # Type
+Special: 'green4'
+SpecialChar: '' # Special
+Tag: '' # Special
+Delimiter: '' # Special
+SpecialComment: '' # Special
+Debug: '' # Special
+Underlined: ''
+Ignore: ''
+Error: ''
+Todo: '- yellow4'
